@@ -41,7 +41,7 @@ extern "C" {
 #endif /* __cplusplus */
 
 #define IS_UPPER(x) (x >= 'A' && x <= 'Z')
-#define IS_LOWER(x) (x >= 'a' && x <= 'z’)
+#define IS_LOWER(x) (x >= 'a' && x <= 'z')
 #define IS_ALPHABET(x) (IS_LOWER(x) || IS_UPPER(x))
 
 #define IS_VOWEL_LOWER(x) (x == 'a' || x == 'e' || x == 'i' || x == 'o' || x == 'u')
